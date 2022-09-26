@@ -4,7 +4,7 @@ let enterDay = Number(prompt("Please enter number of day: "));
 
 console.log(enterDay);
 
-if(enterDay < 1){
+if(enterDay <= 1){
     console.log("Monday");
 }
 else if(enterDay <= 2){
